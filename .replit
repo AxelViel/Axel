@@ -1,0 +1,6 @@
+run = "m, h j"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "m, h j"]
